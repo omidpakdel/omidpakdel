@@ -1,7 +1,7 @@
 ```C#
-GithubInformation.IntroduceMySelf();
+OmidPakdelGithubProfile.IntroduceMySelf();
 
-class GithubInformation
+class OmidPakdelGithubProfile
 {
     private static string Name { get; set; } = "Omid Pakdel";
     private static int Age { get; set; } = 23;
