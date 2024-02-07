@@ -1,12 +1,12 @@
 ```C#
-OmidPakdelGithubProfile.IntroduceMySelf();
+OmidPakdelProfile.IntroduceMySelf();
 
-class OmidPakdelGithubProfile
+class OmidPakdelProfile
 {
     private static string Name { get; set; } = "Omid Pakdel";
-    private static int Age { get; set; } = 23;
-    private static string Role { get; set; } = "Software Engineer";
-    private static List<string> Stack { get; set; } = new() {".NET", "django rest framework", "Angular"};
+    private static int Age { get; set; } = 25;
+    private static string Role { get; set; } = "Software Engineer, Backend Developer";
+    private static List<string> Stack { get; set; } = new() {".NET", "django rest framework", "Angular""};
     private static string Email { get; set; } = "pakdel.dev@gmail.com";
 
     public static void IntroduceMySelf()
