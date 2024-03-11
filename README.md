@@ -3,19 +3,22 @@ OmidPakdelProfile.IntroduceMySelf();
 
 class OmidPakdelProfile
 {
-    private static string Name { get; set; } = "Omid Pakdel";
-    private static int Age { get; set; } = 25;
-    private static string Role { get; set; } = "Software Engineer, Backend Developer";
-    private static List<string> Stack { get; set; } = new() {".NET", "django rest framework", "Angular""};
-    private static string Email { get; set; } = "pakdel.dev@gmail.com";
+    private static string Name { get; } = "Omid Pakdel";
+    private static string Role { get; } = "Software Engineer / Backend Developer";
+    private static List<string> Skills { get; } = new() { ".NET", "Django REST Framework", "Angular" };
+    private static string Email { get; } = "pakdel.dev@gmail.com";
+    private static string Location { get; } = "Iran";
+    private static string LinkedIn { get; } = "https://linkedin.com/in/omidpakdel";
 
     public static void IntroduceMySelf()
     {
-        Console.WriteLine("Hello fellow devs!");
-        Console.WriteLine($"I'm {Name}, {Age}.");
-        Console.WriteLine($"I'm a {Role} using {string.Join(", ", Stack)}.");
-        Console.WriteLine($"If you wanna contact me, here is my email: {Email}");
-        Console.WriteLine("Hope you enjoy ur time while u r here :)");
+        Console.WriteLine("👋 Hello, fellow developers!");
+        Console.WriteLine($"👤 I'm {Name}, a {Role}.");
+        Console.WriteLine($"🛠️ I specialize in: {string.Join(", ", Skills)}.");
+        Console.WriteLine($"📫 Reach out to me at: {Email}");
+        Console.WriteLine($"🌍 Based in: {Location}");
+        Console.WriteLine($"🔗 LinkedIn: {LinkedIn}");
+        Console.WriteLine("Hope you enjoy your time while you're here! 😊");
     }
 }
 ```
